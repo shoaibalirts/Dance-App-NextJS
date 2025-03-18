@@ -78,4 +78,15 @@ To run the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
+   git clone https://github.com/rts-cmk/landrup-dans-api
+2. navigate to landrup-dans-api folder
+3. npm install (to install api dependencies)
+4. npm start (Backend API server will be running on localhost:4000)
+5. navigate to dance-app
+6. npm install (to install project dependencies)
+7. ```bash
    git clone https://github.com/shoaibalirts/Dance-App-NextJS.git
+8. navigate to dance-app folder
+9. npm install (to install api dependencies)
+10. npm run dev (frontend will be running on localhost:3000)
+
