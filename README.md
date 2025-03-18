@@ -60,10 +60,10 @@ This app follows a **3-tier architecture** consisting of:
    The user interface is built with **Next.js** and **Tailwind CSS**. The frontend runs on **localhost:3000**.
 
 2. **Backend API (Server-side)**:  
-   The backend API handles all business logic, database interactions, and serves data to the frontend. It is built with Node.js (or your preferred backend framework) and runs on **localhost:4000**.
+   The backend API handles all business logic, database interactions, and serves data to the frontend. It runs on **localhost:4000**.
 
 3. **Database Layer**:  
-   The app connects to a database (e.g., MongoDB, PostgreSQL) to manage and store user and activity data. The database is set up locally or remotely based on your configuration.
+   The app connects to a database (PostgreSQL) to manage and store user and activity data. 
 
 ## Technologies Used
 - **Frontend**: Next.js, CSS Modules, Tailwind CSS
